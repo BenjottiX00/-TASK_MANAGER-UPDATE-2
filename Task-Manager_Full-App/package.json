@@ -1,0 +1,13 @@
+{
+  "name": "task-manager",
+  "private": true,
+  "version": "1.0.0",
+  "engines": { "node": ">=22" },
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "dev": "npm run dev -w @tm/ui",
+    "build": "npm run build -w @tm/ui",
+    "test": "npm run test -w @tm/core",
+    "typecheck": "npm run typecheck -w @tm/core && npm run typecheck -w @tm/ui"
+  }
+}

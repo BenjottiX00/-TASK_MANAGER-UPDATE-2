@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+# Android build output (the android/ folder itself IS committed)
+packages/shell-mobile/android/build/
+packages/shell-mobile/android/.gradle/
+packages/shell-mobile/android/app/build/
+packages/shell-mobile/android/local.properties
